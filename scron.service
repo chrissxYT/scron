@@ -1,0 +1,10 @@
+[Unit]
+Description=simple cronjobs
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/bin/scron
+
+[Install]
+WantedBy=multi-user.target
