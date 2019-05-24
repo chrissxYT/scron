@@ -4,7 +4,7 @@ Description=simple cronjobs
 [Service]
 Type=simple
 Restart=always
-ExecStart=/usr/bin/scron
+ExecStart=/usr/bin/scrond
 
 [Install]
 WantedBy=multi-user.target

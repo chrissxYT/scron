@@ -1,3 +1,4 @@
-#define CRON_LIST "/etc/scrons"
-#define MAX_EXEC_LENGTH 256
-#define MAX_JOBS        64
+const cronjob jobs[] =
+{
+	{1, "sleep 1 &"},
+};
